@@ -1,0 +1,33 @@
+.jcarousel-container-horizontal {
+  width: 396px;
+  padding: 0px 15px;
+}
+
+.jcarousel-clip {
+  overflow: hidden;
+}
+
+.jcarousel-clip-horizontal {
+  width:  396px;
+  height: 128px;
+}
+
+.jcarousel-next-horizontal {
+  position: absolute;
+  top: 43px;
+  right: 0px;
+  width: 11px;
+  height: 43px;
+  background: url(../img/slider/arrow.png) -11px 0px no-repeat;
+  cursor: pointer;
+}
+
+.jcarousel-prev-horizontal {
+  position: absolute;
+  top: 43px;
+  left: 0px;
+  width: 11px;
+  height: 43px;
+  background: url(../img/slider/arrow.png) no-repeat;
+  cursor: pointer;
+}

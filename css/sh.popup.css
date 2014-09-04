@@ -1,0 +1,127 @@
+.shOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../images/colorbox/overlay.png) 0 0 repeat;
+  display: none;
+}
+
+.shOverlay .shClose {
+  position: absolute;
+  bottom:0;
+  right: 0;
+  width: 25px;
+  height: 49px;
+  background: url('../images/sh/close.png') 0 0 no-repeat;
+  text-indent: -9999px;
+}
+
+.shOverlayIn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background: none;
+  display: none;
+}
+
+.shOverlayIn .shTopCont, .shOverlayIn .shBtmCont {
+  clear: both;
+  height: 21px;
+}
+
+.shOverlayIn .shMidCont {
+  clear: both;
+}
+
+.shOverlayIn .shTopLeft {
+  float: left;
+  width: 21px;
+  height: 21px;
+  background: url('../images/colorbox/controls.png') -101px 0 no-repeat;
+}
+
+.shOverlayIn .shTopCenter {
+  float: left;
+  height: 21px;
+}
+
+.shOverlayIn .shTopRight {
+  float: left;
+  width: 21px;
+  height: 21px;
+  background: url('../images/colorbox/controls.png') -129px 0 no-repeat;
+}
+
+.shOverlayIn .shMidLeft {
+  float: left;
+  width: 21px;
+}
+
+.shOverlayIn .shMidCenter {
+  float: left;
+  overflow: hidden;
+}
+
+.shOverlayIn .shMidCenterText {
+  overflow: hidden;
+  display: none;
+}
+
+.shOverlayIn .shMidRight {
+  float: left;
+  width: 21px;
+}
+
+.shOverlayIn .shBtmLeft {
+  float: left;
+  width: 21px;
+  height: 21px;
+  background: url('../images/colorbox/controls.png') -101px -29px no-repeat;
+}
+
+.shOverlayIn .shBtmCenter {
+  float: left;
+  height: 21px;
+}
+
+.shOverlayIn .shBtmRight {
+  float: left;
+  width: 21px;
+  height: 21px;
+  background: url('../images/colorbox/controls.png') -129px -29px no-repeat;
+}
+
+.shOverlayIn .shLoader {
+  width: 32px;
+  height: 32px;
+}
+
+.shOverlayControl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.shOverlayControl .shArrowLeft {
+  float: left;
+  margin-left: 15px;
+  width: 25px;
+  height: 100px;
+  background: url('../images/sh/arrow.png') 0 0 no-repeat;
+}
+
+.shOverlayControl .shArrowRight {
+  float: right;
+  margin-right: 15px;
+  width: 25px;
+  height: 100px;
+  background: url('../images/sh/arrow.png') -26px 0 no-repeat;
+}
+
+.shOverlayTemp {
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+}
