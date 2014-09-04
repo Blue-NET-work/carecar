@@ -72,17 +72,16 @@ body{width: 100%; margin:0px; padding:0px; font-family:'TrajanPro-Regular',Helve
 #SLIDER .sl .sl_txt .slider_push .push_r{float: left; width: 11px; height: 43px; background: url(../img/slider/arrow.png) -11px 0px no-repeat; margin-top: 22px;}
 
 #nav-shadow {list-style: none; margin:0px; padding: 0px;}
-#nav-shadow li {width: 89px; height: 108px; padding-top: 20px; position: relative; float: left; margin: 0px 5px;}
-#nav-shadow li a span.ico_sh{background: url("../img/slider/ico_sh.png") no-repeat; width: 52px; height: 38px; display: block;}
-#nav-shadow li a span.ico_zarowka{background: url("../img/slider/ico_zarowka.png") no-repeat; width: 52px; height: 38px; display: block;}
-#nav-shadow li a span.ico_aparat{background: url("../img/slider/ico_aparat.png") no-repeat; width: 52px; height: 38px; display: block;}
-#nav-shadow li a span.ico_seo{background: url("../img/slider/ico_seo.png") no-repeat; width: 52px; height: 38px; display: block;}
+#nav-shadow li {width: 90px; height: 85px; padding-top: 20px; position: relative; float: left; margin: 0px 5px;}                
 
-#nav-shadow a, #nav-shadow a:visited {padding-left:18px; padding-top: 25px;	width: 71px; height: 83px; text-indent: 0px; overflow: hidden; background: url(../img/slider/ico_1.png) no-repeat; display: block; position: relative; z-index: 50;}
-#nav-shadow a.active span.ico_sh, #nav-shadow li a:hover span.ico_sh {background: url("../img/slider/ico_sh.png") 0px -38px no-repeat;}
-#nav-shadow a.active span.ico_zarowka, #nav-shadow li a:hover span.ico_zarowka {background: url("../img/slider/ico_zarowka.png") 0px -38px no-repeat;}
-#nav-shadow a.active span.ico_aparat, #nav-shadow li a:hover span.ico_aparat {background: url("../img/slider/ico_aparat.png") 0px -38px no-repeat;}
-#nav-shadow a.active span.ico_seo, #nav-shadow li a:hover span.ico_seo {background: url("../img/slider/ico_seo.png") 0px -38px no-repeat;}
+#nav-shadow a, #nav-shadow a:visited {padding-left:18px; padding-top: 25px;	width: 85px; height: 85px; text-indent: 0px; overflow: hidden; background: url(../img/slider/ico_1.png) no-repeat; display: block; position: relative; z-index: 50;}
+
+#nav-shadow a.s1{background: url(../img/slider/icon1.png) no-repeat;}
+#nav-shadow a.s2{background: url(../img/slider/icon2.png) no-repeat;}
+#nav-shadow a.s3{background: url(../img/slider/icon3.png) no-repeat;}
+#nav-shadow a.s4{background: url(../img/slider/icon4.png) no-repeat;}
+#nav-shadow a.s5{background: url(../img/slider/icon5.png) no-repeat;}
+
 #nav-shadow li img.shadow {margin-left: 18px; position: absolute; bottom: 0; left: 0; z-index: 10; }
 
 #CONTAINER{margin: -260px auto 0px auto; width:960px; position: relative; z-index: 100;}
