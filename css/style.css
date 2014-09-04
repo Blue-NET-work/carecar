@@ -60,7 +60,7 @@ body{width: 100%; margin:0px; padding:0px; font-family:'TrajanPro-Regular',Helve
 #SLIDER .sl .sl_txt .stxt{float: left; margin: auto; width: 960px; height: 398px; display: none;}
 
 #SLIDER .sl .sl_txt .sl_l{float: left; width: 435px; padding-right: 55px;}
-#SLIDER .sl .sl_txt .sl_r{float: left; width: 470px; margin-top: 42px;}
+#SLIDER .sl .sl_txt .sl_r{float: left; width: 470px;}
 
 #SLIDER .sl .sl_txt .sl_l .sl_sm_img{font-family:'TrajanPro-Regular',Helvetica,sans-serif; font-size:27.52px;}       
 #SLIDER .sl .sl_txt .sl_l .sl_sm_txt{width: 432px; background: rgba(84,86,94,0.66); border-radius:10px; margin-top:20px;}
