@@ -64,7 +64,7 @@ body{width: 100%; margin:0px; padding:0px; font-family:'TrajanPro-Regular',Helve
 
 #SLIDER .sl .sl_txt .sl_l .sl_sm_img{font-family:'TrajanPro-Regular',Helvetica,sans-serif; font-size:27.52px;}       
 #SLIDER .sl .sl_txt .sl_l .sl_sm_txt{width: 432px; background: rgba(84,86,94,0.66); border-radius:10px; margin-top:20px;}
-#SLIDER .sl .sl_txt .sl_l .sl_sm_txt .sl_sm_txt_in{padding: 25px 25px 25px 25px;}                                                                                                                                
+#SLIDER .sl .sl_txt .sl_l .sl_sm_txt .sl_sm_txt_in{padding: 15px;}                                                                                                                                
 
 
 #SLIDER .sl .sl_txt .slider_push{position: absolute; top: 650px;}
@@ -190,9 +190,9 @@ body{width: 100%; margin:0px; padding:0px; font-family:'TrajanPro-Regular',Helve
 #REALISATION_LIGHTBOX .real_lig_dsc .real_link a { font-size:18px; color:#fff; text-decoration:none; padding:0px 10px;}
 #REALISATION_LIGHTBOX .real_img img {display:block; width:130px; height:130px; margin-bottom:20px; cursor: pointer; cursor: hand;}
 
-#FOOTER{position: absolute; bottom: 0; background: url("../img/footer.jpg") top repeat-x;  width: 100%;}
+#FOOTER{position: absolute; bottom: 0;  width: 100%;}
 
-#FOOTER_IN{margin: 0 auto; width: 960px;}
+#FOOTER_IN{margin: 0 auto; width: 960px; background: url("../img/footer.jpg") top repeat-x;}
 
 #FOOTER .column{width: 25%; float: left; padding-top: 45px; padding-bottom: 30px;}
 
@@ -201,12 +201,9 @@ body{width: 100%; margin:0px; padding:0px; font-family:'TrajanPro-Regular',Helve
 #FOOTER .column ul{list-style: none; font-size: 17.33px; margin:0px; padding: 0px 0 0 0;}
 #FOOTER .column ul li{padding-top: 5px;}
 #FOOTER .column ul li a{color: #fff; font-size: 13px;} 
-
-#FOOTER .column .ftrtxt{ padding-left: 11px; padding-top: 5px;}
-#FOOTER .column .ftrtxt a{margin-top: 10px; color: #fff; display: block; padding-right: 20px; width: 55px; }
-                                  
-                                  
-
+                        
+#FOOTER .column .ftrtxt{ font-size:16px; padding-left: 0; padding-top: 0;}                             
+   
 #umow-sie {display: block; position: absolute; top: 0; right: 0; width: 176px; height: 176px; background: url(../img/umow-sie.png) 0 0 no-repeat; z-index: 500;}
 
 #CONTAINER_SUB .in .title_seo{font-size:24px; color:#fff;}
