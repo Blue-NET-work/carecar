@@ -37,12 +37,12 @@ a {text-decoration: none;}
 
 body{width: 100%; margin:0px; padding:0px; font-family:'TrajanPro-Regular',Helvetica,sans-serif; font-size: 12px; color: #ffffff; background: #161522;}
 #GLOBAL_CONT{position: absolute; zoom: 1; width: 100%; min-height: 100%; height: auto !important; height: 100%; overflow: hidden; z-index: 100;}
-#GLOBAL{position: relative; width: 960px; margin: 0 auto 215px;}
+#GLOBAL{position: relative; width: 1170px; margin: 0 auto 215px;}
 
 #TOP{position: relative; width: 100%; z-index: 20;}
 #TOP a.logo{display: block; width: 983px; height: 211px; background: url(../img/logo.png) no-repeat;}
 
-#TOP .menu{position:absolute; top:30px; right:0; height: 37px;}                                                
+#TOP .menu{position:absolute; top:30px; right:150px; height: 37px;}                                                
 #TOP .menu .menu_cnt{height: 37px; background: rgba(84,86,94,0.66); border-radius:5px;}
 #TOP .menu .menu_cnt a{display: block; float: left; padding: 12px 15px 7px; font-size: 13px; color: #fff; text-decoration: none; }
 #TOP .menu .menu_cnt a:hover{color: #fff;}
@@ -57,7 +57,7 @@ body{width: 100%; margin:0px; padding:0px; font-family:'TrajanPro-Regular',Helve
 #SLIDER .sl .sl_bg div {float: left; margin: auto; display: none;}
 
 #SLIDER .sl .sl_txt{position: relative; z-index: 12; width: 20000em; height: 398px; margin: 0px auto; padding-top: 250px;}
-#SLIDER .sl .sl_txt .stxt{float: left; margin: auto; width: 960px; height: 398px; display: none;}
+#SLIDER .sl .sl_txt .stxt{float: left; margin: auto; width: 1170px; height: 398px; display: none;}
 
 #SLIDER .sl .sl_txt .sl_l{float: left; width: 435px; padding-right: 55px;}
 #SLIDER .sl .sl_txt .sl_r{float: left; width: 470px;}
@@ -84,7 +84,7 @@ body{width: 100%; margin:0px; padding:0px; font-family:'TrajanPro-Regular',Helve
 
 #nav-shadow li img.shadow {margin-left: 18px; position: absolute; bottom: 0; left: 0; z-index: 10; }
 
-#CONTAINER{margin: -260px auto 0px auto; width:960px; position: relative; z-index: 100;}
+#CONTAINER{margin: -260px auto 0px auto; width:1170px; position: relative; z-index: 100;}
                                        
 #CONTAINER .btn_main_bg{float: left; width: 274px; height: 2px;}
 #CONTAINER .btn_main{position: absolute; left: 0; margin-top: 60px; width: 306px; height: 77px; padding: 8px 0px 0px 15px; background: url(../img/btn_main.png) no-repeat; color: #fff; font-size: 20px;}
@@ -191,7 +191,7 @@ body{width: 100%; margin:0px; padding:0px; font-family:'TrajanPro-Regular',Helve
 
 #FOOTER{position: absolute; bottom: 0;  width: 100%;}
 
-#FOOTER_IN{margin: 0 auto; width: 960px; background: url("../img/footer.jpg") top repeat-x;}
+#FOOTER_IN{margin: 0 auto; width: 1170px; background: url("../img/footer.jpg") top repeat-x;}
 
 #FOOTER .column{width: 25%; float: left; padding-top: 45px; padding-bottom: 30px;}
 
@@ -274,14 +274,31 @@ body{width: 100%; margin:0px; padding:0px; font-family:'TrajanPro-Regular',Helve
 }
 
 .m-t-20{margin-top:20px;}
+.m-t-40{margin-top:40px;}
+.m-t-60{margin-top:60px;}
 
-.container{width:960px;}
+.container{width:1170px;}
     
 .box{
 	background: rgba(84,86,94,0.66); 
 	border-radius: 10px;
 	padding:15px;
 	margin-top:20px;     
+}
+
+.maps img{
+	position:relative;
+	z-index:9;
+}
+
+.maps .btn{
+	position:relative;
+	display:block;
+	width:160px;
+	margin-top:-30px;
+	margin-left:auto;
+	margin-right:0;
+	z-index:999;
 }
 
 .contact{
@@ -292,6 +309,7 @@ body{width: 100%; margin:0px; padding:0px; font-family:'TrajanPro-Regular',Helve
 .contact p {
 	background:url(../img/icon.png) no-repeat left top;
 	padding-left:50px;
+	display:inline-block;
 }
 
 .contact p.mail{
@@ -303,6 +321,7 @@ body{width: 100%; margin:0px; padding:0px; font-family:'TrajanPro-Regular',Helve
 
 .min-height600{min-height:600px;}
 .min-height740{min-height:740px;}
+.min-height940{min-height:940px;}
 
 .data{
 	font-size:18.18px;
@@ -311,7 +330,7 @@ body{width: 100%; margin:0px; padding:0px; font-family:'TrajanPro-Regular',Helve
 .godziny{
 	text-align:center;
 	font-size:16.51px;
-	margin-top:30px;
+	margin-top:50px;
 }
 .godziny h4{
 	font-size:16.51px;
@@ -321,7 +340,7 @@ body{width: 100%; margin:0px; padding:0px; font-family:'TrajanPro-Regular',Helve
 }
 
 .wizyta{
-	margin-top:30px;
+	margin-top:50px;
 	text-align:center;
 	font-size:12.84px;
 }
@@ -337,14 +356,15 @@ body{width: 100%; margin:0px; padding:0px; font-family:'TrajanPro-Regular',Helve
 	background-size:contain;
 	text-align:center;
 	font-size:9.17px;
-	margin-top:20px;
-	padding-top:30px;
+	margin-top:40px;
+	padding-top:40px;
 }
 
 .form{
 }
 
 .form h3{
+	margin-top:5px;
 	font-size:16.51px;
 }
 
@@ -355,11 +375,54 @@ textarea.form-control{
 	border-radius:2px;
 }
 
-.form .btn{
+.btn{
 	background:#d7b767;
 	border-color:#9797a3;
 	padding:6px 12px 4px;
 	border-radius:2px;
 	color:#161522;
 	font-size:12.84px;
+}
+
+.header-zapisz{
+	margin-top:-120px;
+}
+
+.header-zapisz h2{
+	font-size:26.52px;
+}
+
+.youtube{margin-bottom:30px;}
+
+.ctn-zapisz-sie{
+}
+
+
+.ctn-zapisz-sie h4{
+	font-size:14.68px;
+}
+
+.zapisz-form{
+}
+
+.zapisz-form .control-label{
+	text-align:left;
+}
+
+.startowy{
+	background:url(../img/zapiszImg.png) no-repeat center 50px;
+	min-height:150px;
+}
+
+.startowy input[type=radio]{
+	margin-top:40px;
+	margin-left:20px;
+}
+
+.startowy-info{
+	font-size:11px;
+}
+
+.startowy h4{
+	font-size:10px;
 }
