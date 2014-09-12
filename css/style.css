@@ -272,3 +272,94 @@ body{width: 100%; margin:0px; padding:0px; font-family:'TrajanPro-Regular',Helve
   margin-left: 170px;
   margin-right: auto;
 }
+
+.m-t-20{margin-top:20px;}
+
+.container{width:960px;}
+    
+.box{
+	background: rgba(84,86,94,0.66); 
+	border-radius: 10px;
+	padding:15px;
+	margin-top:20px;     
+}
+
+.contact{
+	font-size:33.02px;
+	color:#fff;
+}
+
+.contact p {
+	background:url(../img/icon.png) no-repeat left top;
+	padding-left:50px;
+}
+
+.contact p.mail{
+	background-position:bottom left;
+	font-size:22.2px;
+	padding-top:5px;
+}
+
+
+.min-height600{min-height:600px;}
+.min-height740{min-height:740px;}
+
+.data{
+	font-size:18.18px;
+}
+
+.godziny{
+	text-align:center;
+	font-size:16.51px;
+	margin-top:30px;
+}
+.godziny h4{
+	font-size:16.51px;
+	border-bottom:1px solid #fff;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+
+.wizyta{
+	margin-top:30px;
+	text-align:center;
+	font-size:12.84px;
+}
+
+.wizyta h4{
+	font-size:22.01px;
+}
+
+.wizyta span{color:#d7b767;}
+
+.fmgroup{
+	background:url(../img/arrow.png) no-repeat top center;
+	background-size:contain;
+	text-align:center;
+	font-size:9.17px;
+	margin-top:20px;
+	padding-top:30px;
+}
+
+.form{
+}
+
+.form h3{
+	font-size:16.51px;
+}
+
+.form input[type=text],
+.form input[type=email],
+.form input[type=phone],
+textarea.form-control{
+	border-radius:2px;
+}
+
+.form .btn{
+	background:#d7b767;
+	border-color:#9797a3;
+	padding:6px 12px 4px;
+	border-radius:2px;
+	color:#161522;
+	font-size:12.84px;
+}
